@@ -1,4 +1,4 @@
-`txtar` っていうテキスト用のマルチパート表現が GoPlayground で使われてて結構便利そうなので試してみた。
+`txtar` っていうテキスト用のマルチパート表現が [Go Playground](https://play.golang.org/p/KLZR7NlVZNX) で使われてて結構便利そうなので試してみた。
 
 # txtar とは
 
