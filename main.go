@@ -10,7 +10,7 @@ func main() {
 	if err != nil {
 		panic(err)
 	}
-	fmt.Printf("### コメントという名の無名の1ファイル目的なやつ (%d bytes)\n%s", len(archive.Comment), string(archive.Comment))
+	fmt.Printf("### コメントという名の無名の1ファイル目なやつ (%d bytes)\n%s", len(archive.Comment), string(archive.Comment))
 	for _, f := range archive.Files {
 		fmt.Printf("### %s (%d bytes)\n", f.Name, len(f.Data))
 		fmt.Println(string(f.Data))
